@@ -1,0 +1,10 @@
+# composer
+/framework/vendor
+
+# envelopment
+/web/robots.txt
+/framework/config/local.php
+
+# html
+/web/html/*
+!/web/html/.htaccess

@@ -1,0 +1,9 @@
+.git
+.env
+/tmp/
+/docker/server/*/
+/html/web/html/
+/html/web/robots.txt
+/html/backup/*/
+/html/storage/*/
+/html/framework/runtime/*/

@@ -1,0 +1,5 @@
+version: '3'
+services:
+    app:
+        volumes:
+            - /var/cache/compose/composer:/var/www/.composer

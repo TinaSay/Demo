@@ -1,0 +1,84 @@
+{
+    "name": "yii2-developer/cmf2",
+    "description": "The CMF2 is based on Yii2",
+    "keywords": [
+        "yii2",
+        "framework",
+        "basic",
+        "project template"
+    ],
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "krok",
+            "email": "yii2.developer@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "composer",
+            "url": "https://packagist.dev-vps.ru"
+        },
+        {
+            "type": "path",
+            "url": "extensions/*/"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "~2.0.15",
+        "yiisoft/yii2-redis": "~2.0.0",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-imagine": "~2.0.0",
+        "yiisoft/yii2-jui": "~2.0.0",
+        "yii2-developer/yii2-application": "~0.0.1",
+        "yii2-developer/yii2-configure": "~0.0.1",
+        "yii2-developer/yii2-editor": "~2.0.0",
+        "yii2-developer/yii2-extend": "~0.1.0",
+        "yii2-developer/yii2-system": "~1.0.0",
+        "yii2-developer/yii2-paperDashboard": "~0.5.0",
+        "yii2-developer/yii2-content": "~1.0.0",
+        "yii2-developer/yii2-storage": "~0.2.0",
+        "yii2-developer/yii2-filesystem": "~0.2.0",
+        "yii2-developer/yii2-glide": "~1.1.0",
+        "yii2-developer/yii2-tinymce": "~2.0.0",
+        "yii2-developer/yii2-tinymce-uploader": "~0.1.0",
+        "yii2-developer/yii2-language": "~1.1.0",
+        "yii2-developer/yii2-oauth": "~2.0.0",
+        "yii2-developer/yii2-log": "~1.0.0",
+        "yii2-developer/yii2-sentry": "~0.0.1",
+        "yii2-developer/yii2-access": "~0.0.1",
+        "yii2-developer/yii2-password-eye": "~0.0.1",
+        "yii2-developer/yii2-queue": "~0.1.0",
+        "yii2-developer/yii2-bootbox": "~0.0.1",
+        "yii2-developer/yii2-mailer": "~0.0.1",
+        "yii2-developer/yii2-backup": "~0.0.1",
+        "vlucas/phpdotenv": "~2.4.0",
+        "yii2-developer/yii2-search": "~1.2.0",
+        "yii2-developer/yii2-menu": "~0.3.6",
+        "yii2-developer/yii2-sitemap": "~0.1.0",
+        "contrib/yii2-news": "~1.0.0",
+        "contrib/yii2-subscriber": "~0.1.2",
+        "contrib/yii2-post-manager": "~2.0.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-gii": "~2.0.0",
+        "guzzlehttp/guzzle": ">=4.1.4 <7.0",
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "process-timeout": 1800
+    },
+    "scripts": {
+        "post-autoload-dump": "curl --silent --header \"Accept: text/plain\" https://security.sensiolabs.org/check_lock --form lock=@composer.lock"
+    }
+}
